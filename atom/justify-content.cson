@@ -1,0 +1,4 @@
+".source.css, .source.scss, .source.sass, .source.less, .source.styl":
+  "Flexbox - justify-content: flex-start;":
+    "prefix": "flexjus"
+    "body": "justify-content: ${1:flex-start|flex-end|center|space-between|space-around};"

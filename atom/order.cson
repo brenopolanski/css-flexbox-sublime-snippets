@@ -1,0 +1,4 @@
+".source.css, .source.scss, .source.sass, .source.less, .source.styl":
+  "Flexbox - order: 0;":
+    "prefix": "flexord"
+    "body": "order: ${1:0};"

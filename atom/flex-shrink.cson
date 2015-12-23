@@ -1,0 +1,4 @@
+".source.css, .source.scss, .source.sass, .source.less, .source.styl":
+  "Flexbox - flex-shrink: 1;":
+    "prefix": "flexshr"
+    "body": "flex-shrink: ${1:1};"

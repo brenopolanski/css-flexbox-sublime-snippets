@@ -1,0 +1,4 @@
+".source.css, .source.scss, .source.sass, .source.less, .source.styl":
+  "Flexbox - flex-basis: auto;":
+    "prefix": "flexbas"
+    "body": "flex-basis: ${1:auto|<'width' (%|rem|em|px)>};"

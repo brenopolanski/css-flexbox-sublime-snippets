@@ -1,0 +1,4 @@
+".source.css, .source.scss, .source.sass, .source.less, .source.styl":
+  "Flexbox - flex-grow: 0;":
+    "prefix": "flexgro"
+    "body": "flex-grow: ${1:0};"
