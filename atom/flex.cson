@@ -1,4 +1,0 @@
-".source.css, .source.scss, .source.sass, .source.less, .source.styl":
-  "Flexbox - flex: 0 1 auto;":
-    "prefix": "flex"
-    "body": "flex: ${1:none|auto|[<'flex-grow' (0)> <'flex-shrink' (1)> || <'flex-basis' auto|<'width' (%|rem|em|px)>>]};"

@@ -1,4 +1,0 @@
-".source.css, .source.scss, .source.sass, .source.less, .source.styl":
-  "Flexbox - align-items: flex-start;":
-    "prefix": "flexite"
-    "body": "align-items: ${1:flex-start|flex-end|center|baseline|stretch};"

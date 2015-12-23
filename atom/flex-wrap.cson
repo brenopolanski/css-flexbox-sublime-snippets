@@ -1,4 +1,0 @@
-".source.css, .source.scss, .source.sass, .source.less, .source.styl":
-  "Flexbox - flex-wrap: nowrap;":
-    "prefix": "flexwrap"
-    "body": "flex-wrap: ${1:nowrap|wrap|wrap-reverse};"

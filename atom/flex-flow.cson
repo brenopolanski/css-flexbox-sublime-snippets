@@ -1,4 +1,0 @@
-".source.css, .source.scss, .source.sass, .source.less, .source.styl":
-  "Flexbox - flex-flow: row nowrap;":
-    "prefix": "flexflow"
-    "body": "flex-flow: ${1:<'flex-direction' (row|row-reverse|column|column-reverse)> || <'flex-wrap' (nowrap|wrap|wrap-reverse)>};"
