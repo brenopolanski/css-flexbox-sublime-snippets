@@ -8,8 +8,6 @@ To install through Package Control, search for [**Flexbox Snippets**](https://su
 
 Works for CSS/LESS/Sass/SCSS & Stylus.
 
-To trigger a Flexbox properties just put a **flex** followed by it's name, like so:
-
 ## display
 
 **trigger:** flexbox⇥
@@ -113,3 +111,23 @@ flex: 0 1 auto;
 ```
 align-self: auto;
 ```
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m "Add some feature"`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request  :)
+
+English is the universal language nowadays, so please don't create or comment on issues using another language.
+
+## History
+
+For detailed changelog, see [Releases](https://github.com/brenopolanski/css-flexbox-sublime-snippets/releases).
+
+## Credits
+
+## License
+
+[MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
