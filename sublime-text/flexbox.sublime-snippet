@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+display: ${1:flex|inline-flex};
+]]></content>
+	<tabTrigger>flexbox</tabTrigger>
+	<scope>source.css, source.scss, source.sass, source.less, source.styl</scope>
+	<description>Flexbox - display: flex;</description>
+</snippet>
