@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-align-content: ${1:flex-start|flex-end|center|space-between|space-around|stretch};
-]]></content>
-	<tabTrigger>flexcont</tabTrigger>
-	<scope>source.css, source.scss, source.sass, source.less, source.styl</scope>
-	<description>Flexbox - align-content: flex-start;</description>
-</snippet>
