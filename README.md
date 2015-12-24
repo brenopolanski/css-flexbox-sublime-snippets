@@ -1,5 +1,7 @@
 # CSS Flexbox snippets for Sublime [![Build Status](https://travis-ci.org/brenopolanski/css-flexbox-sublime-snippets.svg?branch=master)](https://travis-ci.org/brenopolanski/css-flexbox-sublime-snippets)
 
+![image snippets](https://raw.githubusercontent.com/brenopolanski/css-flexbox-sublime-snippets/assets/snippets.gif)
+
 ## Install
 
 To install through Package Control, search for [**Flexbox Snippets**](https://sublime.wbond.net/packages/Flexbox%20Snippets). If you still don't have Package Control in Sublime Text, [go get it](http://wbond.net/sublime_packages/package_control/installation). If you insist to not install it, you can download the package and put it manually inside your Pacakages directory. It should work but will not update automatically.
