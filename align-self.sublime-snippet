@@ -2,7 +2,7 @@
 	<content><![CDATA[
 align-self: ${1:auto|flex-start|flex-end|center|baseline|stretch};
 ]]></content>
-	<tabTrigger>flexsel</tabTrigger>
+	<tabTrigger>flexself</tabTrigger>
 	<scope>source.css, source.scss, source.sass, source.less, source.styl</scope>
 	<description>Flexbox - align-self: auto;</description>
 </snippet>

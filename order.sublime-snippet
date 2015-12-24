@@ -2,7 +2,7 @@
 	<content><![CDATA[
 order: ${1:0};
 ]]></content>
-	<tabTrigger>flexord</tabTrigger>
+	<tabTrigger>flexorder</tabTrigger>
 	<scope>source.css, source.scss, source.sass, source.less, source.styl</scope>
 	<description>Flexbox - order: 0;</description>
 </snippet>

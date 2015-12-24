@@ -18,7 +18,7 @@ display: flex;
 
 ## flex-direction
 
-**trigger:** flexdis⇥
+**trigger:** flexdir⇥
 
 ```
 flex-direction: row;
@@ -42,7 +42,7 @@ flex-flow: row nowrap;
 
 ## justify-content
 
-**trigger:** flexjus⇥
+**trigger:** flexjust⇥
 
 ```
 justify-content: flex-start;
@@ -50,7 +50,7 @@ justify-content: flex-start;
 
 ## align-items
 
-**trigger:** flexite⇥
+**trigger:** flexitems⇥
 
 ```
 align-items: flex-start;
@@ -58,7 +58,7 @@ align-items: flex-start;
 
 ## align-content
 
-**trigger:** flexcon⇥
+**trigger:** flexcont⇥
 
 ```
 align-content: flex-start;
@@ -66,7 +66,7 @@ align-content: flex-start;
 
 ## order
 
-**trigger:** flexord⇥
+**trigger:** flexorder⇥
 
 ```
 order: 0;
@@ -90,7 +90,7 @@ flex-shrink: 1;
 
 ## flex-basis
 
-**trigger:** flexbas⇥
+**trigger:** flexbasis⇥
 
 ```
 flex-basis: auto;

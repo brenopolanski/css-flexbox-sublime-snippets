@@ -2,7 +2,7 @@
 	<content><![CDATA[
 flex-grow: ${1:0};
 ]]></content>
-	<tabTrigger>flexgro</tabTrigger>
+	<tabTrigger>flexgrow</tabTrigger>
 	<scope>source.css, source.scss, source.sass, source.less, source.styl</scope>
 	<description>Flexbox - flex-grow: 0;</description>
 </snippet>

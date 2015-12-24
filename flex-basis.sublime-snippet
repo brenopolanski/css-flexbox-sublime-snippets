@@ -2,7 +2,7 @@
 	<content><![CDATA[
 flex-basis: ${1:auto|<'width' (%|rem|em|px)>};
 ]]></content>
-	<tabTrigger>flexbas</tabTrigger>
+	<tabTrigger>flexbasis</tabTrigger>
 	<scope>source.css, source.scss, source.sass, source.less, source.styl</scope>
 	<description>Flexbox - flex-basis: auto;</description>
 </snippet>
