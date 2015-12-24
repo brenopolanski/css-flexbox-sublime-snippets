@@ -15,7 +15,7 @@ Works for CSS/LESS/Sass/SCSS & Stylus.
 **trigger:** flexbox⇥
 
 ```
-display: flex;
+display: ${1:flex|inline-flex};
 ```
 
 ## flex-direction
@@ -23,7 +23,7 @@ display: flex;
 **trigger:** flexdir⇥
 
 ```
-flex-direction: row;
+flex-direction: ${1:row|row-reverse|column|column-reverse};
 ```
 
 ## flex-wrap
@@ -31,7 +31,7 @@ flex-direction: row;
 **trigger:** flexwrap⇥
 
 ```
-flex-wrap: nowrap;
+flex-wrap: ${1:nowrap|wrap|wrap-reverse};
 ```
 
 ## flex-flow
@@ -39,7 +39,7 @@ flex-wrap: nowrap;
 **trigger:** flexflow⇥
 
 ```
-flex-flow: row nowrap;
+flex-flow: ${1:<'flex-direction' (row|row-reverse|column|column-reverse)> || <'flex-wrap' (nowrap|wrap|wrap-reverse)>};
 ```
 
 ## justify-content
@@ -47,7 +47,7 @@ flex-flow: row nowrap;
 **trigger:** flexjust⇥
 
 ```
-justify-content: flex-start;
+justify-content: ${1:flex-start|flex-end|center|space-between|space-around};
 ```
 
 ## align-items
@@ -55,7 +55,7 @@ justify-content: flex-start;
 **trigger:** flexitems⇥
 
 ```
-align-items: flex-start;
+align-items: ${1:flex-start|flex-end|center|baseline|stretch};
 ```
 
 ## align-content
@@ -63,7 +63,7 @@ align-items: flex-start;
 **trigger:** flexcont⇥
 
 ```
-align-content: flex-start;
+align-content: ${1:flex-start|flex-end|center|space-between|space-around|stretch};
 ```
 
 ## order
@@ -71,7 +71,7 @@ align-content: flex-start;
 **trigger:** flexorder⇥
 
 ```
-order: 0;
+order: ${1:0};
 ```
 
 ## flex-grow
@@ -79,7 +79,7 @@ order: 0;
 **trigger:** flexgrow⇥
 
 ```
-flex-grow: 0;
+flex-grow: ${1:0};
 ```
 
 ## flex-shrink
@@ -87,7 +87,7 @@ flex-grow: 0;
 **trigger:** flexshr⇥
 
 ```
-flex-shrink: 1;
+flex-shrink: ${1:1};
 ```
 
 ## flex-basis
@@ -95,7 +95,7 @@ flex-shrink: 1;
 **trigger:** flexbasis⇥
 
 ```
-flex-basis: auto;
+flex-basis: ${1:auto|<'width' (%|rem|em|px)>};
 ```
 
 ## flex
@@ -103,7 +103,7 @@ flex-basis: auto;
 **trigger:** flex⇥
 
 ```
-flex: 0 1 auto;
+flex: ${1:none|auto|[<'flex-grow' (0)> <'flex-shrink' (1)> || <'flex-basis' auto|<'width' (%|rem|em|px)>>]};
 ```
 
 ## align-self
@@ -111,8 +111,14 @@ flex: 0 1 auto;
 **trigger:** flexself⇥
 
 ```
-align-self: auto;
+align-self: ${1:auto|flex-start|flex-end|center|baseline|stretch};
 ```
+
+## Prefixing Flexbox
+
+Flexbox requires some vendor prefixing to support the most browsers possible. It doesn't just include prepending properties with the vendor prefix, but there are actually entirely different property and value names. This is because the Flexbox spec has changed over time, creating an ["old", "tweener", and "new"](http://css-tricks.com/old-flexbox-and-new-flexbox/) versions.
+
+Perhaps the best way to handle this is to write in the new (and final) syntax and run your CSS through [Autoprefixer](https://github.com/postcss/autoprefixer), which handles the fallbacks very well.
 
 ## Contributing
 
@@ -128,7 +134,10 @@ English is the universal language nowadays, so please don't create or comment on
 
 For detailed changelog, see [Releases](https://github.com/brenopolanski/css-flexbox-sublime-snippets/releases).
 
-## Credits
+## References
+
+- [Flexbox in the CSS specifications](http://www.w3.org/TR/css-flexbox/)
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## License
 
