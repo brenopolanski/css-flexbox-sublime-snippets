@@ -8,7 +8,7 @@ To install through Package Control, search for [**Flexbox Snippets**](https://su
 
 ## Snippets
 
-Works for CSS/LESS/Sass/SCSS & Stylus.
+Works for CSS/LESS/Sass/SCSS/Stylus & Vue Component.
 
 ## display
 

@@ -3,6 +3,6 @@
 justify-content: ${1:flex-start|flex-end|center|space-between|space-around};
 ]]></content>
 	<tabTrigger>flexjust</tabTrigger>
-	<scope>source.css, source.scss, source.sass, source.less, source.styl</scope>
+	<scope>source.css, source.scss, source.sass, source.less, source.styl, source.vue</scope>
 	<description>Flexbox - justify-content: flex-start;</description>
 </snippet>
