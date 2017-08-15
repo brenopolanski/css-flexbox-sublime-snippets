@@ -3,6 +3,6 @@
 flex-flow: ${1:<'flex-direction' (row|row-reverse|column|column-reverse)> || <'flex-wrap' (nowrap|wrap|wrap-reverse)>};
 ]]></content>
 	<tabTrigger>flexflow</tabTrigger>
-	<scope>source.css, source.scss, source.sass, source.less, source.styl</scope>
+	<scope>source.css, source.scss, source.sass, source.less, source.styl, source.vue</scope>
 	<description>Flexbox - flex-flow: row nowrap;</description>
 </snippet>
